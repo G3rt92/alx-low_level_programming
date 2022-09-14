@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * print_sign: return 0 letter not lowercase, 1 letter lowercase
+ *  print_last_digit - last digit
  *
- *@n: the int to be print
+ *@n: The int to print
  * Return: 0 for success.
  */
 int print_sign(int n)
