@@ -4,7 +4,7 @@
  *@x: print int
  * Return: 0 (success).
  */
-void prit_diagonal(int x)
+void print_diagonal(int x)
 {
 	int i;
 	int j;
