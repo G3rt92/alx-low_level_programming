@@ -27,7 +27,7 @@ void more_numbers(void)
 			{
 				f_number = outcome / 10;
 				s_number = outcome % 10;
-				_putchar (first_number + '0');
+				_putchar (f_number + '0');
 			}
 
 		_putchar (s_number + '0');

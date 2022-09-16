@@ -2,9 +2,9 @@
 /**
  * print_diagonal - outputs a diagonal line
  *@x: print int
- * Returx: 0 (success).
+ * Return: 0 (success).
  */
-void pritn_diagonal(int x)
+void prit_diagonal(int x)
 {
 	int i;
 	int j;
