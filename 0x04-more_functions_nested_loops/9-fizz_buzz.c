@@ -12,32 +12,32 @@ int main(void)
 
 	i = 1;
 	while (i <= x)
+	{
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			if (i % 3 == 0 && i % 5 == 0)
-			{
-				printf("FizzBuzz ");
-			}
+			printf("FizzBuzz ");
+		}
 
-			else if (i % 3 == 0)
-			{
-				printf("Fizz ");
-			}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
 
-			else if (i % 5 == 0)
-			{
-				if (i < x)
-				printf("Buzz ");
-			
-				else
-				printf("Buzz");
-			}
+		else if (i % 5 == 0)
+		{
+			if (i < x)
+			printf("Buzz ");
 
 			else
-			{
-				printf("%i ", i);
-			}
-		i++;
+			printf("Buzz");
 		}
-		printf("\n");
-		return (0);
+
+		else
+		{
+			printf("%i ", i);
+		}
+	i++;
+	}
+	printf("\n");
+	return (0);
 }

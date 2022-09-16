@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * _isdigit - check if c is a digit
- * 
+ *
  *@c: int
- * Return: 1 if c is a digit
- * Return: 0 otherwise
+ * Return: 0 (success)
  */
 
 int _isdigit(int c)
