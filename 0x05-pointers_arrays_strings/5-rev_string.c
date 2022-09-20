@@ -15,7 +15,7 @@ void rev_string(char *s)
 		length++;
 	}
 
-	while (length >= 1)
+	while (length >= 0)
 	{
 		_putchar(s[length - 1]);
 		length--;
