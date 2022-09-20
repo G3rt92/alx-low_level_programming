@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  *_strlen - outputs the length of a string
  *@s: points to a character of strings
@@ -24,11 +24,12 @@ int _strlen(char *s)
 
 void print_rev(char *s)
 {
-	int len = _strlenz(s);
+	int len = _strlen(s);
 
 	while (len > 0)
 	{
-		putchar(s[len - 1]);
+		_putchar(s[len - 1]);
 		len--;
 	}
+	_putchar('\n');
 }
