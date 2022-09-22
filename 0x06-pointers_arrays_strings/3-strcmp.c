@@ -1,11 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strcmp - compare individual string values
  * @s1: first string
  * @s2: second string
- *
- * Return: s1[i] - s2[i]
+ * Return: (s1[i] - s2[i])
  */
 int _strcmp(char *s1, char *s2)
 {
