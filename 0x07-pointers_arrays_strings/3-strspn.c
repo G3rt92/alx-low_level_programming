@@ -7,9 +7,9 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, f;
+	int i, j, len;
 
-	f = 0;
+	len = 0;
 
 	for (i = 0; s[i] != ','; i++)
 	{
@@ -17,10 +17,12 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				f++;
+				len++;
 			}
+			if (accept[j] == '\0')
+			return (len);
 		}
 	}
-	return (f);
+	return (len);
 	return (0);
 }
