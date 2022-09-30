@@ -8,18 +8,19 @@
  */
 int screener(char *s)
 {
-	int i, number;
+	int i, number, length;
 
 	i = 0;
 	number = 0;
-	while (i < strlen(s))
+	length = strlen(s);
+	while (i < length)
 	{
 		if (s[i] < '0' || s[i] > '9')
 		{
 			return (-1);
 		}
 		else
-			number = number * 10 + (a[i] - '0');
+			number = number * 10 + (s[i] - '0');
 		i++;
 	}
 	return (number);
