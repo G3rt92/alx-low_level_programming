@@ -7,11 +7,11 @@
 void print_all(const char * const format, ...)
 {
 	int i;
+	char *str;
+	char *sep = "";
+	va_list ls;
 
 	i = 0;
-	char *str, *sep = "";
-
-	va_list ls;
 
 	va_start(ls, format);
 	if (format)
