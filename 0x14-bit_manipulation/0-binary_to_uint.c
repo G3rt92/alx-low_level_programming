@@ -49,7 +49,7 @@ unsigned int binary_to_uint(const char *b)
 		if (b[i] == 'e')
 			return (0);
 	}
-	num = atoi(b);
+	num = _atoi(b);
 	bin_num = num;
 
 	while (num > 0)
