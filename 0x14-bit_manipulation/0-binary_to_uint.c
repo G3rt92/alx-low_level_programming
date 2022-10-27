@@ -1,10 +1,12 @@
 #include "main.h"
+#include <string.h>
+#include <stdlib.h>
 /**
  * _atoi - convert a string to an integer
  *@s: String
  * Return: Return the num
  **/
-int _atoi(char *s)
+int _atoi(const char *s)
 {
 	unsigned int num, i;
 	int sign;
