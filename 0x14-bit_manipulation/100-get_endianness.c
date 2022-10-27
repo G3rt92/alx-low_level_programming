@@ -6,10 +6,13 @@
  **/
 int get_endianness(void)
 {
-	int i;
-	char *k;
+	char zahl;
+	char *p;
 
-	i = 1;
-	test = (char *)&i;
-	return ((int)k[0]);
+	zahl = '1';
+	p = &zahl;
+	if (*p == 0)
+		return (0);
+	else
+		return (1);
 }
