@@ -30,7 +30,7 @@ int _atoi(char *s)
 
 	}
 
-	return (num *sign);
+	return (num * sign);
 }
 /**
  * binary_to_uint - converts a string of 1's and 0's to a decimal number
@@ -41,6 +41,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num, bin_num, dec_num, base, rem;
 	int i;
+
 	dec_num = 0;
 	base = 1;
 	for (i = 0; b[i] != '\0'; i++)
