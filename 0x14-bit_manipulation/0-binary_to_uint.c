@@ -41,7 +41,7 @@ int _atoi(const char *s)
  **/
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num,dec_num, base, rem;
+	unsigned int num, dec_num, base, rem;
 	int i;
 
 	dec_num = 0;
